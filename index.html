@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./registerresponse.html" method="post">
+        <fieldset>
+            <legend>register form</legend>
+        <img src="../day8/login_logo.png" width="500px"><br>
+        <div>
+            <label for="abhi">first name:</label>
+            <input type="text" id="abhi" name="firstname" pattern="[a-zA-Z]{5,10}" title="only alphabets are allowed" required>
+        </div>
+        <div>
+            <label for="abhi">last name:</label>
+            <input type="text" id="abhi" name="lastname" pattern="[a-zA-Z]{2,8}" title="only alphabets are allowed"required>
+        </div>
+        <div>
+            <label for="abhi">password:</label>
+            <input type="text" id="abhi" name="pass" pattern="[a-zA-Z@!#$%^&\d]{8,}" title="only alphabets and special characters and numbers are allowed"required>
+        </div>
+        <div>
+            <label for="abhi">email:</label>
+            <input type="text" id="abhi" name="email" pattern="[a-z@_.0-9]+" title="only alphabets and numbers nad @_  are allowed "required>
+        </div>
+        <input type="submit" value="register">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./response.html" method="post">
+        <div>
+            <label for="name" >single alphabet pattern</label><br>
+            <input id="name" type="text" name="uname" pattern="[abcxyz]" title="only single alphabet a b c allowed" required>
+             
+        </div>
+        <div>
+            <label for="name" >multiple alphabet pattern</label><br>
+            <input id="name" type="text" name="uname" pattern="[abcxyz]+" title="ony multiple alphabet a b c x  y z are allowed" required><br>
+        </div>
+        <div>
+            <label for="name" >multiple alphabet numbers spaces and range pattern</label><br>
+            <input id="name" type="text" name="uname" pattern="[a-zA-Z0-9 ]{9}" required><br>
+        </div>
+        
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
